@@ -1,0 +1,1 @@
+alias git-update="git add . && git commit -m 'Update'"
