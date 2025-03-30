@@ -5,6 +5,10 @@ Reference:
 
 * [www.vogella.com](https://www.vogella.com/tutorials/GitSubmodules/article.html)
 
+## Init
+
+- `git submodule init`
+
 ## clone
 
 - `git clone --recursive [URL to Git repo]`
@@ -17,10 +21,6 @@ Reference:
 - `git submodule add -b main <URL>`
 - specific directory
 - `git submodule add <url> lib/utility`
-
-## Init
-
-- `git submodule init`
 
 ## Update
 
