@@ -1,5 +1,3 @@
-# Index
-
 - [install](install.md)
 - [config](config.md)
 - [ssh](ssh.md)
