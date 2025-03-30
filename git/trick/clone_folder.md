@@ -14,7 +14,7 @@ git version 2.25.0, so make sure you have your git version updated.
     `git checkout master`
 6. Cloning the specific folder, start from root, example: `src/auth`
     `git sparse-checkout add src/auth`
-
+7. Optional. clean up `rm *.* && rm -rf --dir -- ./.* && rm -- ./*` 
 ### alternative
 
 public service online
