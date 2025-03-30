@@ -1,6 +1,7 @@
-the `sparse-checkout` command just works on
-git version 2.25.0
-so make sure you have your git version updated.
+### Trick to download only specific folde
+
+It use `sparse-checkout`. This command just works on
+git version 2.25.0, so make sure you have your git version updated.
 
 1. Copy the Clone URL
 2. Select a Local Folder
@@ -12,7 +13,10 @@ so make sure you have your git version updated.
 5. Select a Branch, example: `master`, see `git branch`
     `git checkout master`
 6. Cloning the specific folder, start from root, example: `src/auth`
-    `git sparse-checkout src/auth`
+    `git sparse-checkout add src/auth`
 
-alternative: online
+### alternative
+
+public service online
+
 - https://download-directory.github.io/
