@@ -1,1 +1,1 @@
-[git][git/README.md]
+[git](git/README.md)
