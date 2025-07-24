@@ -15,10 +15,20 @@ Check *Settings* > *Archives* > **Include Git LFS objects in archives**
 
 - `git lfs install`
 - `# Example`
-- `git lfs track "*.tar"` 
+- `git lfs track "*.tar"`
+- if already have '.gitattributes' just `git-lfs track`
 
 ### Register
 
 - `git add .gitattributes`
 - `git add .`
 - `cat ./.gitattributes`
+
+### Example .gitattribute
+
+```
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.ico filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+```
