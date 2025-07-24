@@ -1,0 +1,27 @@
+// from http://stephenscaff.com/articles/2013/09/font-face-and-base64-data-uri/
+//---------------------------------------------- 
+//  Family: [family name]
+//  Weights: 400=reg, 700=bold
+//  Base64 embedding for out font-face.
+//  Convert ttf/otf to woff, then base64 it.
+//----------------------------------------------
+// woff2 (old) 	: application/font-woff2
+// new mime    	: font/woff2
+// apache	: AddType  application/font-woff2  .woff2
+// nginx	: mime.types: font/woff2    woff2;
+
+// Regular
+@font-face {
+  font-family: "font-name";
+  src: url(data:application/x-font-woff;charset=utf-8;base64,PASTE-BASE64-HERE);
+  font-style: normal;
+  font-weight: 400;
+}
+
+// Italic
+@font-face {
+  font-family: "font-name";
+  src: url(data:application/x-font-woff;charset=utf-8;base64,PASTE-BASE64-HERE);
+  font-style: italic;
+  font-weight: 400;
+}
