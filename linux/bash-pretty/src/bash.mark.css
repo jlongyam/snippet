@@ -1,0 +1,11 @@
+@import './dark.min.css';
+
+.bash-output {
+  font-family: Consolas,monospace;
+  font-size: 15px;
+  overflow: auto;
+  }
+mark {
+  background-color: #ffc107;
+  padding: 2px 4px;
+  }

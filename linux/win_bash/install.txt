@@ -1,0 +1,30 @@
+win-bash - A stand-alone bash for Windows
+=========================================
+
+win-bash is a Windows port of the famous GNU bash (see GNU Bash homepage). 
+Unlike other bash ports for Windows (e.g. the  cygwin bash ),
+the win-bash needs no special environment or DLLs. There is just one binary and that's it. 
+
+win-bash is based on nt_bash which was an early bash port for Windows NT started
+by Mountain Math Software some years ago. As far as I know,
+the nt_bash port project stopped in alpha status and has never been finished. 
+
+The goal of the win-bash project is to finish the port to Windows and
+provide a fully-functional bash.exe binary for Windows NT and derived systems.
+win-bash can be used as an input shell, as well as an interpreter to run UN*X shell scripts. 
+
+
+INSTALLATION
+============
+
+The installation of win-bash is pretty simply:
+Just download shell.w32-ix86.zip, unpack it and copy the bash.exe file to a path which is listed
+in your PATH environment variable. 
+
+When using win-bash as the default shell for un*x shell scripts,
+you may which to copy bash.exe to sh.exe to make scripts starting with #!/bin/sh work. 
+
+Remember:
+This is only the shell binary - it has same builtin commands,
+but for must purposes you would need additional un*x tools like ls, sed etc.
+The unxutils project provides Windows ports of often used un*x tools. 

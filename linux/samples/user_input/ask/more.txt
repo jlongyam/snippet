@@ -1,0 +1,3 @@
+https://unix.stackexchange.com/questions/152372/how-to-make-bash-script-ask-you-if-you-want-to-execute-the-next-segmentpart
+https://unix.stackexchange.com/questions/47584/in-a-bash-script-using-the-conditional-or-in-an-if-statement
+
