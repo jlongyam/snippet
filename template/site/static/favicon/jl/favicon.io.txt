@@ -1,0 +1,19 @@
+https://favicon.io/
+
+Text
+	JL
+Background
+	Rounded
+Font Family
+	Noto Sans
+Font Variant
+	Bold 700 Normal
+Font Size
+	110
+Font Color
+	#FFF
+Background Color
+	#222
+
+site.webmanifest
+  https://developer.mozilla.org/en-US/docs/Web/Manifest
