@@ -5,7 +5,7 @@
 Add this to .gitconfig
 ```
 [alias]
-	up = git add . && git commit -m 'update'
+	up = !git add . && git commit -m 'feat: Update'
 ```
 
 ## 2. Call
